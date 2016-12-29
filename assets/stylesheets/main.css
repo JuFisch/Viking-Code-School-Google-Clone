@@ -1,0 +1,186 @@
+/*
+=============
+Custom Styles
+=============
+*/
+
+.container {
+	margin: 0 auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 960px;
+}
+
+a {
+	text-decoration: none;
+}
+/*
+=============
+Buttons
+=============
+*/
+
+.btn {
+	border-radius: 2px;
+	cursor: auto;
+}
+
+.btn-alt {
+	background-color: #4386fb;
+	background-image: -webkit-linear-gradient(top,#4386fb,#4482eb);
+	border: 1px solid #4386fb;
+	color: #FFF;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.btn-default {
+	background-color: #f2f2f2;
+	background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    border: 1px solid #f2f2f2;
+    color: #757575;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    height: 28px;
+}
+
+.btn-default:hover {
+	background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+	background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+/*
+=========
+Header
+=========
+*/
+
+.primary-header {
+	font-family: Helvetica, Arial;
+	font-size: 12px;
+	color: #727272;
+}
+
+.primary-nav {
+	float: right;
+}
+
+.primary-nav-item {
+	float: left;
+	padding-right: 16px;
+	color: #727272;
+}
+
+#grid {
+	height: 24px;
+	width: 24px;
+}
+.primary-nav-item:last-child {
+	font-size: 12px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	color: #FFF;
+	max-height: 14px;
+
+}
+
+
+/*
+=========
+Nav
+=========
+*/
+
+
+
+
+/*
+=========
+Main Page
+=========
+*/
+
+
+.logo-image {
+	width: 280px;
+	margin: 0 auto;
+}
+
+#logo-image {
+	display: block;
+	width: 268px;
+	padding-top: 140px;
+	padding-bottom: 12px;
+}
+
+.search-bar {
+	width: 30%;
+	height: 16px;
+	margin: 0 auto;
+}
+
+fieldset {
+	border: none;
+}
+
+.search-buttons {
+	width: 290px;
+	margin: 0 auto;
+}
+
+/*
+=========
+Footer
+=========
+*/
+.primary-footer {
+	margin-top: 120px;
+	font-size: 12px;
+}
+
+.about-menu,
+.settings-menu {
+	list-style-type: none;
+}
+
+.about-menu li {
+	display: inline-block;
+	padding: 10px;
+	font-family: arial,sans-serif;
+	color: #757575;;
+}
+
+.about-menu {
+	background-color: #f2f2f2;
+}
+
+.left {
+	float: left;
+	background-color: #f2f2f2;
+}
+
+.right {
+	float: right;
+	background-color: #f2f2f2;
+}
+
+.wrapper {
+	height: 36px;
+	width: 100%;
+	background-color: #f2f2f2;
+}
+
+
